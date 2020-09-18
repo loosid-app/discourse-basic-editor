@@ -17,17 +17,17 @@ export default Ember.Component.extend({
         toolbarItems: [],
         toolbar: {
       		items: [
-      			'heading',
+      			// 'heading',
       			'|',
       			'bold',
       			'italic',
       			'link',
-      			'bulletedList',
-      			'numberedList',
-      			'blockQuote',
+      			// 'bulletedList',
+      			// 'numberedList',
+      			// 'blockQuote',
       			'|',
-      			'undo',
-      			'redo',
+      			// 'undo',
+      			// 'redo',
       		]
       	},
         })
