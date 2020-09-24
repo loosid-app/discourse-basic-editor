@@ -37,7 +37,7 @@ export default Ember.Component.extend({
     loadScript("/plugins/DiscourseBasicEditor/ckeditor.js").then(() => {
       const component = this;
       ClassicEditor.create( document.querySelector( '#editor' ), {
-        toolbar: [ 'bold', 'italic', 'blockQuote' ],
+        toolbar: [ 'bold', 'italic', 'link', 'imageUpload' ],
         disUploader:{
           abort: function(abo){
           	console.log("abort from the outside", this)
